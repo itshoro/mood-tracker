@@ -7,61 +7,71 @@ const MoodSad = () => {
             viewBox="0 0 32 32"
         >
             <path
-                fill="url(#a)"
+                fill="url(#sad-a)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#b)"
+                fill="url(#sad-b)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#c)"
+                fill="url(#sad-c)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#d)"
+                fill="url(#sad-d)"
                 fillOpacity="0.6"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#e)"
+                fill="url(#sad-e)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#f)"
+                fill="url(#sad-f)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#g)"
+                fill="url(#sad-g)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#h)"
+                fill="url(#sad-h)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
-            <circle cx="9.017" cy="15.421" r="4.673" fill="url(#i)"></circle>
-            <circle cx="19.244" cy="15.943" r="4.244" fill="url(#j)"></circle>
+            <circle
+                cx="9.017"
+                cy="15.421"
+                r="4.673"
+                fill="url(#sad-i)"
+            ></circle>
+            <circle
+                cx="19.244"
+                cy="15.943"
+                r="4.244"
+                fill="url(#sad-j)"
+            ></circle>
             <path
                 fill="#fff"
                 d="M10.42 18.412a4.206 4.206 0 100-8.412 4.206 4.206 0 000 8.412zm11.148.077a4.244 4.244 0 100-8.489 4.244 4.244 0 000 8.489z"
             ></path>
             <path
-                fill="url(#k)"
+                fill="url(#sad-k)"
                 d="M13.5 14.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"
             ></path>
             <path
-                fill="url(#l)"
+                fill="url(#sad-l)"
                 d="M23.5 14.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"
             ></path>
             <path
-                fill="url(#m)"
+                fill="url(#sad-m)"
                 fillRule="evenodd"
                 d="M20.245 24.7a6.007 6.007 0 00-8.487.026 1 1 0 01-1.416-1.412 8.007 8.007 0 0111.313-.034 1 1 0 01-1.41 1.42z"
                 clipRule="evenodd"
             ></path>
             <defs>
                 <radialGradient
-                    id="a"
+                    id="sad-a"
                     cx="0"
                     cy="0"
                     r="1"
@@ -73,7 +83,7 @@ const MoodSad = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="b"
+                    id="sad-b"
                     cx="0"
                     cy="0"
                     r="1"
@@ -85,7 +95,7 @@ const MoodSad = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="c"
+                    id="sad-c"
                     cx="0"
                     cy="0"
                     r="1"
@@ -100,7 +110,7 @@ const MoodSad = () => {
                     <stop offset="0.973" stopColor="#FF7DCE"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="d"
+                    id="sad-d"
                     cx="0"
                     cy="0"
                     r="1"
@@ -111,7 +121,7 @@ const MoodSad = () => {
                     <stop offset="1"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="e"
+                    id="sad-e"
                     cx="0"
                     cy="0"
                     r="1"
@@ -126,7 +136,7 @@ const MoodSad = () => {
                     <stop offset="1" stopColor="#715B32"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="f"
+                    id="sad-f"
                     cx="0"
                     cy="0"
                     r="1"
@@ -137,7 +147,7 @@ const MoodSad = () => {
                     <stop offset="1" stopColor="#FFB847" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="g"
+                    id="sad-g"
                     cx="0"
                     cy="0"
                     r="1"
@@ -152,7 +162,7 @@ const MoodSad = () => {
                     ></stop>
                 </radialGradient>
                 <radialGradient
-                    id="h"
+                    id="sad-h"
                     cx="0"
                     cy="0"
                     r="1"
@@ -163,7 +173,7 @@ const MoodSad = () => {
                     <stop offset="1" stopOpacity="0.4"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="i"
+                    id="sad-i"
                     cx="0"
                     cy="0"
                     r="1"
@@ -174,7 +184,7 @@ const MoodSad = () => {
                     <stop offset="1" stopColor="#C87928" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="j"
+                    id="sad-j"
                     cx="0"
                     cy="0"
                     r="1"
@@ -185,7 +195,7 @@ const MoodSad = () => {
                     <stop offset="1" stopColor="#C87928" stopOpacity="0"></stop>
                 </radialGradient>
                 <linearGradient
-                    id="k"
+                    id="sad-k"
                     x1="25.583"
                     x2="24.75"
                     y1="11.167"
@@ -196,7 +206,7 @@ const MoodSad = () => {
                     <stop offset="1" stopColor="#3D2432"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="l"
+                    id="sad-l"
                     x1="25.583"
                     x2="24.75"
                     y1="11.167"
@@ -207,7 +217,7 @@ const MoodSad = () => {
                     <stop offset="1" stopColor="#3D2432"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="m"
+                    id="sad-m"
                     x1="16"
                     x2="16"
                     y1="20.926"

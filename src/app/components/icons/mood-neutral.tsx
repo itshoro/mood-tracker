@@ -7,55 +7,71 @@ const MoodNeutral = () => {
             viewBox="0 0 32 32"
         >
             <path
-                fill="url(#a)"
+                fill="url(#neutral-a)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#b)"
+                fill="url(#neutral-b)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#c)"
+                fill="url(#neutral-c)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#d)"
+                fill="url(#neutral-d)"
                 fillOpacity="0.6"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#e)"
+                fill="url(#neutral-e)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#f)"
+                fill="url(#neutral-f)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#g)"
+                fill="url(#neutral-g)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#h)"
+                fill="url(#neutral-h)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
-            <circle cx="9.017" cy="13.421" r="4.673" fill="url(#i)"></circle>
-            <circle cx="19.244" cy="13.943" r="4.244" fill="url(#j)"></circle>
+            <circle
+                cx="9.017"
+                cy="13.421"
+                r="4.673"
+                fill="url(#neutral-i)"
+            ></circle>
+            <circle
+                cx="19.244"
+                cy="13.943"
+                r="4.244"
+                fill="url(#neutral-j)"
+            ></circle>
             <path
                 fill="#fff"
                 d="M10.42 16.224a4.206 4.206 0 100-8.411 4.206 4.206 0 000 8.411zm11.148.077a4.244 4.244 0 100-8.489 4.244 4.244 0 000 8.49z"
             ></path>
-            <path fill="url(#k)" d="M11 15a3 3 0 100-6 3 3 0 000 6z"></path>
-            <path fill="url(#l)" d="M21 15a3 3 0 100-6 3 3 0 000 6z"></path>
             <path
-                fill="url(#m)"
+                fill="url(#neutral-k)"
+                d="M11 15a3 3 0 100-6 3 3 0 000 6z"
+            ></path>
+            <path
+                fill="url(#neutral-l)"
+                d="M21 15a3 3 0 100-6 3 3 0 000 6z"
+            ></path>
+            <path
+                fill="url(#neutral-m)"
                 fillRule="evenodd"
                 d="M10 20a1 1 0 011-1h10a1 1 0 110 2H11a1 1 0 01-1-1z"
                 clipRule="evenodd"
             ></path>
             <defs>
                 <radialGradient
-                    id="a"
+                    id="neutral-a"
                     cx="0"
                     cy="0"
                     r="1"
@@ -67,7 +83,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="b"
+                    id="neutral-b"
                     cx="0"
                     cy="0"
                     r="1"
@@ -79,7 +95,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="c"
+                    id="neutral-c"
                     cx="0"
                     cy="0"
                     r="1"
@@ -94,7 +110,7 @@ const MoodNeutral = () => {
                     <stop offset="0.973" stopColor="#FF7DCE"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="d"
+                    id="neutral-d"
                     cx="0"
                     cy="0"
                     r="1"
@@ -105,7 +121,7 @@ const MoodNeutral = () => {
                     <stop offset="1"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="e"
+                    id="neutral-e"
                     cx="0"
                     cy="0"
                     r="1"
@@ -120,7 +136,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopColor="#715B32"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="f"
+                    id="neutral-f"
                     cx="0"
                     cy="0"
                     r="1"
@@ -131,7 +147,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopColor="#FFB847" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="g"
+                    id="neutral-g"
                     cx="0"
                     cy="0"
                     r="1"
@@ -146,7 +162,7 @@ const MoodNeutral = () => {
                     ></stop>
                 </radialGradient>
                 <radialGradient
-                    id="h"
+                    id="neutral-h"
                     cx="0"
                     cy="0"
                     r="1"
@@ -157,7 +173,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopOpacity="0.4"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="i"
+                    id="neutral-i"
                     cx="0"
                     cy="0"
                     r="1"
@@ -168,7 +184,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopColor="#C87928" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="j"
+                    id="neutral-j"
                     cx="0"
                     cy="0"
                     r="1"
@@ -179,7 +195,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopColor="#C87928" stopOpacity="0"></stop>
                 </radialGradient>
                 <linearGradient
-                    id="k"
+                    id="neutral-k"
                     x1="16.5"
                     x2="15.5"
                     y1="8"
@@ -190,7 +206,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopColor="#3D2432"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="l"
+                    id="neutral-l"
                     x1="16.5"
                     x2="15.5"
                     y1="8"
@@ -201,7 +217,7 @@ const MoodNeutral = () => {
                     <stop offset="1" stopColor="#3D2432"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="m"
+                    id="neutral-m"
                     x1="16"
                     x2="16"
                     y1="19.5"

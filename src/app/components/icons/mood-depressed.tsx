@@ -1,4 +1,4 @@
-const MoodDepressive = () => {
+const MoodDepressed = () => {
     return (
         <svg
             className="size-8"
@@ -6,77 +6,77 @@ const MoodDepressive = () => {
             fill="none"
             viewBox="0 0 32 32"
         >
-            <g clipPath="url(#a)">
+            <g clipPath="url(#depressed-a)">
                 <path
-                    fill="url(#b)"
+                    fill="url(#depressed-b)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#c)"
+                    fill="url(#depressed-c)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#d)"
+                    fill="url(#depressed-d)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#e)"
+                    fill="url(#depressed-e)"
                     fillOpacity="0.6"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#f)"
+                    fill="url(#depressed-f)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#g)"
+                    fill="url(#depressed-g)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#h)"
+                    fill="url(#depressed-h)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#i)"
+                    fill="url(#depressed-i)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    stroke="url(#j)"
+                    stroke="url(#depressed-j)"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
                     d="M7 17s1 1 3 1 3-1 3-1"
                 ></path>
                 <path
-                    stroke="url(#k)"
+                    stroke="url(#depressed-k)"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
                     d="M19 17s1 1 3 1 3-1 3-1"
                 ></path>
                 <path
-                    stroke="url(#l)"
+                    stroke="url(#depressed-l)"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="1.25"
                     d="M10.5 8.5s-.5 3-4 3"
                 ></path>
                 <path
-                    stroke="url(#m)"
+                    stroke="url(#depressed-m)"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="1.25"
                     d="M10.5 8.5s-.5 3-4 3"
                 ></path>
                 <path
-                    stroke="url(#n)"
+                    stroke="url(#depressed-n)"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="1.25"
                     d="M21.5 8.5s.5 3 4 3"
                 ></path>
                 <path
-                    stroke="url(#o)"
+                    stroke="url(#depressed-o)"
                     strokeLinecap="round"
                     strokeWidth="2"
                     d="M13 25h6"
@@ -84,7 +84,7 @@ const MoodDepressive = () => {
             </g>
             <defs>
                 <radialGradient
-                    id="b"
+                    id="depressed-b"
                     cx="0"
                     cy="0"
                     r="1"
@@ -96,7 +96,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="c"
+                    id="depressed-c"
                     cx="0"
                     cy="0"
                     r="1"
@@ -108,7 +108,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="d"
+                    id="depressed-d"
                     cx="0"
                     cy="0"
                     r="1"
@@ -123,7 +123,7 @@ const MoodDepressive = () => {
                     <stop offset="0.973" stopColor="#FF7DCE"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="e"
+                    id="depressed-e"
                     cx="0"
                     cy="0"
                     r="1"
@@ -134,7 +134,7 @@ const MoodDepressive = () => {
                     <stop offset="1"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="f"
+                    id="depressed-f"
                     cx="0"
                     cy="0"
                     r="1"
@@ -149,7 +149,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopColor="#715B32"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="g"
+                    id="depressed-g"
                     cx="0"
                     cy="0"
                     r="1"
@@ -160,7 +160,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopColor="#FFB847" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="h"
+                    id="depressed-h"
                     cx="0"
                     cy="0"
                     r="1"
@@ -175,7 +175,7 @@ const MoodDepressive = () => {
                     ></stop>
                 </radialGradient>
                 <radialGradient
-                    id="i"
+                    id="depressed-i"
                     cx="0"
                     cy="0"
                     r="1"
@@ -186,7 +186,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopOpacity="0.4"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="m"
+                    id="depressed-m"
                     cx="0"
                     cy="0"
                     r="1"
@@ -198,7 +198,7 @@ const MoodDepressive = () => {
                     <stop offset="0.955" stopColor="#4A2C42"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="n"
+                    id="depressed-n"
                     cx="0"
                     cy="0"
                     r="1"
@@ -210,7 +210,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopColor="#4A2C42"></stop>
                 </radialGradient>
                 <linearGradient
-                    id="j"
+                    id="depressed-j"
                     x1="11.2"
                     x2="10.965"
                     y1="16.75"
@@ -221,7 +221,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopColor="#432A35"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="k"
+                    id="depressed-k"
                     x1="23.2"
                     x2="22.965"
                     y1="16.75"
@@ -232,7 +232,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopColor="#432A35"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="l"
+                    id="depressed-l"
                     x1="9.5"
                     x2="9.5"
                     y1="8"
@@ -243,7 +243,7 @@ const MoodDepressive = () => {
                     <stop offset="1" stopColor="#4A2C42"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="o"
+                    id="depressed-o"
                     x1="16"
                     x2="16"
                     y1="24.5"
@@ -253,7 +253,7 @@ const MoodDepressive = () => {
                     <stop stopColor="#4F3C43"></stop>
                     <stop offset="1" stopColor="#512756"></stop>
                 </linearGradient>
-                <clipPath id="a">
+                <clipPath id="depressed-a">
                     <path fill="#fff" d="M0 0h32v32H0z"></path>
                 </clipPath>
             </defs>
@@ -261,4 +261,4 @@ const MoodDepressive = () => {
     );
 };
 
-export { MoodDepressive };
+export { MoodDepressed };

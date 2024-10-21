@@ -7,39 +7,39 @@ const MoodHappy = () => {
             viewBox="0 0 32 32"
         >
             <path
-                fill="url(#a)"
+                fill="url(#happy-a)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#b)"
+                fill="url(#happy-b)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#c)"
+                fill="url(#happy-c)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#d)"
+                fill="url(#happy-d)"
                 fillOpacity="0.6"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#e)"
+                fill="url(#happy-e)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#f)"
+                fill="url(#happy-f)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#g)"
+                fill="url(#happy-g)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#h)"
+                fill="url(#happy-h)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
-            <g filter="url(#i)" opacity="0.5">
+            <g filter="url(#happy-i)" opacity="0.5">
                 <path
                     stroke="#9A4609"
                     strokeLinecap="round"
@@ -47,7 +47,7 @@ const MoodHappy = () => {
                     d="M7.5 11.5s.25-2 2.5-2 2.5 2 2.5 2"
                 ></path>
             </g>
-            <g filter="url(#j)" opacity="0.5">
+            <g filter="url(#happy-j)" opacity="0.5">
                 <path
                     stroke="#9A4609"
                     strokeLinecap="round"
@@ -62,7 +62,7 @@ const MoodHappy = () => {
                 strokeWidth="2"
                 d="M8 11s.25-2 2.5-2 2.5 2 2.5 2"
             ></path>
-            <g filter="url(#k)" opacity="0.26">
+            <g filter="url(#happy-k)" opacity="0.26">
                 <path
                     stroke="#fff"
                     strokeLinecap="round"
@@ -78,7 +78,7 @@ const MoodHappy = () => {
                 strokeWidth="2"
                 d="M19 11s.5-2 2.5-2 2.5 2 2.5 2"
             ></path>
-            <g filter="url(#l)" opacity="0.26">
+            <g filter="url(#happy-l)" opacity="0.26">
                 <path
                     stroke="#fff"
                     strokeLinecap="round"
@@ -87,14 +87,17 @@ const MoodHappy = () => {
                     d="M19.25 10.75s.25-2 2.5-2 2.5 2 2.5 2"
                 ></path>
             </g>
-            <path fill="url(#m)" d="M16 25c-9 0-9-9-9-9h18s0 9-9 9z"></path>
             <path
-                fill="url(#n)"
+                fill="url(#happy-m)"
+                d="M16 25c-9 0-9-9-9-9h18s0 9-9 9z"
+            ></path>
+            <path
+                fill="url(#happy-n)"
                 d="M8 16.5V16h16v.5a1 1 0 01-1 1H9a1 1 0 01-1-1z"
             ></path>
             <defs>
                 <radialGradient
-                    id="a"
+                    id="happy-a"
                     cx="0"
                     cy="0"
                     r="1"
@@ -106,7 +109,7 @@ const MoodHappy = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="b"
+                    id="happy-b"
                     cx="0"
                     cy="0"
                     r="1"
@@ -118,7 +121,7 @@ const MoodHappy = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="c"
+                    id="happy-c"
                     cx="0"
                     cy="0"
                     r="1"
@@ -133,7 +136,7 @@ const MoodHappy = () => {
                     <stop offset="0.973" stopColor="#FF7DCE"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="d"
+                    id="happy-d"
                     cx="0"
                     cy="0"
                     r="1"
@@ -144,7 +147,7 @@ const MoodHappy = () => {
                     <stop offset="1"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="e"
+                    id="happy-e"
                     cx="0"
                     cy="0"
                     r="1"
@@ -159,7 +162,7 @@ const MoodHappy = () => {
                     <stop offset="1" stopColor="#715B32"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="f"
+                    id="happy-f"
                     cx="0"
                     cy="0"
                     r="1"
@@ -170,7 +173,7 @@ const MoodHappy = () => {
                     <stop offset="1" stopColor="#FFB847" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="g"
+                    id="happy-g"
                     cx="0"
                     cy="0"
                     r="1"
@@ -185,7 +188,7 @@ const MoodHappy = () => {
                     ></stop>
                 </radialGradient>
                 <radialGradient
-                    id="h"
+                    id="happy-h"
                     cx="0"
                     cy="0"
                     r="1"
@@ -196,7 +199,7 @@ const MoodHappy = () => {
                     <stop offset="1" stopOpacity="0.4"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="m"
+                    id="happy-m"
                     cx="0"
                     cy="0"
                     r="1"
@@ -207,7 +210,7 @@ const MoodHappy = () => {
                     <stop offset="1" stopColor="#89029C"></stop>
                 </radialGradient>
                 <filter
-                    id="i"
+                    id="happy-i"
                     width="10"
                     height="7"
                     x="5"
@@ -230,7 +233,7 @@ const MoodHappy = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="j"
+                    id="happy-j"
                     width="10.001"
                     height="7"
                     x="16"
@@ -253,7 +256,7 @@ const MoodHappy = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="k"
+                    id="happy-k"
                     width="8.75"
                     height="5.75"
                     x="6.375"
@@ -276,7 +279,7 @@ const MoodHappy = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="l"
+                    id="happy-l"
                     width="8.75"
                     height="5.75"
                     x="17.375"
@@ -299,7 +302,7 @@ const MoodHappy = () => {
                     ></feGaussianBlur>
                 </filter>
                 <linearGradient
-                    id="n"
+                    id="happy-n"
                     x1="16"
                     x2="16"
                     y1="16"

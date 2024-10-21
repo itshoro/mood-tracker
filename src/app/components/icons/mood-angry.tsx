@@ -6,64 +6,75 @@ const MoodAngry = () => {
             fill="none"
             viewBox="0 0 32 32"
         >
-            <g clipPath="url(#a)">
+            <g clipPath="url(#angry-a)">
                 <path
-                    fill="url(#b)"
+                    fill="url(#angry-b)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#c)"
+                    fill="url(#angry-c)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#d)"
+                    fill="url(#angry-d)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#e)"
+                    fill="url(#angry-e)"
                     fillOpacity="0.6"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#f)"
+                    fill="url(#angry-f)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#g)"
+                    fill="url(#angry-g)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#h)"
+                    fill="url(#angry-h)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#i)"
+                    fill="url(#angry-i)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
-                <circle cx="9" cy="18" r="5" fill="url(#j)"></circle>
-                <circle cx="19.5" cy="18.5" r="4.5" fill="url(#k)"></circle>
+                <circle cx="9" cy="18" r="5" fill="url(#angry-j)"></circle>
+                <circle
+                    cx="19.5"
+                    cy="18.5"
+                    r="4.5"
+                    fill="url(#angry-k)"
+                ></circle>
                 <path
                     fill="#fff"
                     d="M10.5 21a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm11 0a4.5 4.5 0 100-9 4.5 4.5 0 000 9z"
                 ></path>
-                <path fill="url(#l)" d="M12 19a2 2 0 100-4 2 2 0 000 4z"></path>
-                <path fill="url(#m)" d="M20 19a2 2 0 100-4 2 2 0 000 4z"></path>
                 <path
-                    stroke="url(#n)"
+                    fill="url(#angry-l)"
+                    d="M12 19a2 2 0 100-4 2 2 0 000 4z"
+                ></path>
+                <path
+                    fill="url(#angry-m)"
+                    d="M20 19a2 2 0 100-4 2 2 0 000 4z"
+                ></path>
+                <path
+                    stroke="url(#angry-n)"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="1.5"
                     d="M10.25 10.25s.75 3 4 3"
                 ></path>
                 <path
-                    stroke="url(#o)"
+                    stroke="url(#angry-o)"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="1.5"
                     d="M21.75 10.25s-.75 3-4 3"
                 ></path>
                 <path
-                    stroke="url(#p)"
+                    stroke="url(#angry-p)"
                     strokeLinecap="round"
                     strokeWidth="2"
                     d="M12 25c.333-.667 1.6-2 4-2s3.667 1.333 4 2"
@@ -71,7 +82,7 @@ const MoodAngry = () => {
             </g>
             <defs>
                 <radialGradient
-                    id="b"
+                    id="angry-b"
                     cx="0"
                     cy="0"
                     r="1"
@@ -83,7 +94,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="c"
+                    id="angry-c"
                     cx="0"
                     cy="0"
                     r="1"
@@ -95,7 +106,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="d"
+                    id="angry-d"
                     cx="0"
                     cy="0"
                     r="1"
@@ -110,7 +121,7 @@ const MoodAngry = () => {
                     <stop offset="0.973" stopColor="#FF7DCE"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="e"
+                    id="angry-e"
                     cx="0"
                     cy="0"
                     r="1"
@@ -121,7 +132,7 @@ const MoodAngry = () => {
                     <stop offset="1"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="f"
+                    id="angry-f"
                     cx="0"
                     cy="0"
                     r="1"
@@ -136,7 +147,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#715B32"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="g"
+                    id="angry-g"
                     cx="0"
                     cy="0"
                     r="1"
@@ -147,7 +158,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#FFB847" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="h"
+                    id="angry-h"
                     cx="0"
                     cy="0"
                     r="1"
@@ -162,7 +173,7 @@ const MoodAngry = () => {
                     ></stop>
                 </radialGradient>
                 <radialGradient
-                    id="i"
+                    id="angry-i"
                     cx="0"
                     cy="0"
                     r="1"
@@ -173,7 +184,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopOpacity="0.4"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="j"
+                    id="angry-j"
                     cx="0"
                     cy="0"
                     r="1"
@@ -184,7 +195,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#C87928" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="k"
+                    id="angry-k"
                     cx="0"
                     cy="0"
                     r="1"
@@ -195,7 +206,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#C87928" stopOpacity="0"></stop>
                 </radialGradient>
                 <linearGradient
-                    id="l"
+                    id="angry-l"
                     x1="20.615"
                     x2="19.927"
                     y1="15"
@@ -206,7 +217,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#3D2432"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="m"
+                    id="angry-m"
                     x1="20.615"
                     x2="19.927"
                     y1="15"
@@ -217,7 +228,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#3D2432"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="n"
+                    id="angry-n"
                     x1="11.5"
                     x2="11.5"
                     y1="10"
@@ -228,7 +239,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#4A2C42"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="o"
+                    id="angry-o"
                     x1="20.5"
                     x2="20.5"
                     y1="10"
@@ -239,7 +250,7 @@ const MoodAngry = () => {
                     <stop offset="1" stopColor="#4A2C42"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="p"
+                    id="angry-p"
                     x1="16"
                     x2="16"
                     y1="22"
@@ -249,7 +260,7 @@ const MoodAngry = () => {
                     <stop stopColor="#4F3C43"></stop>
                     <stop offset="1" stopColor="#512756"></stop>
                 </linearGradient>
-                <clipPath id="a">
+                <clipPath id="angry-a">
                     <path fill="#fff" d="M0 0h32v32H0z"></path>
                 </clipPath>
             </defs>

@@ -6,45 +6,45 @@ const MoodInLove = () => {
             fill="none"
             viewBox="0 0 32 32"
         >
-            <g clipPath="url(#a)">
+            <g clipPath="url(#in-love-a)">
                 <path
-                    fill="url(#b)"
+                    fill="url(#in-love-b)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#c)"
+                    fill="url(#in-love-c)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#d)"
+                    fill="url(#in-love-d)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#e)"
+                    fill="url(#in-love-e)"
                     fillOpacity="0.6"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#f)"
+                    fill="url(#in-love-f)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#g)"
+                    fill="url(#in-love-g)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#h)"
+                    fill="url(#in-love-h)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#i)"
+                    fill="url(#in-love-i)"
                     d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
                 ></path>
                 <path
-                    fill="url(#j)"
+                    fill="url(#in-love-j)"
                     d="M3 1.1c1.213-.36 2.5.4 3 .9.5-.5 2.168-1.832 3.75-.25C11.025 3.025 10.5 5 9.5 6.5c-.589.883-2.116 2.272-3.347 3.21-.644.49-1.54.345-2.086-.253C3.143 8.444 1.973 7.145 1.4 6c-1-2 0-4.425 1.6-4.9z"
                 ></path>
-                <g filter="url(#k)" opacity="0.5">
+                <g filter="url(#in-love-k)" opacity="0.5">
                     <path
                         stroke="#9A4609"
                         strokeLinecap="round"
@@ -52,7 +52,7 @@ const MoodInLove = () => {
                         d="M7.5 11.5s.25-2 2.5-2 2.5 2 2.5 2"
                     ></path>
                 </g>
-                <g filter="url(#l)" opacity="0.5">
+                <g filter="url(#in-love-l)" opacity="0.5">
                     <path
                         stroke="#9A4609"
                         strokeLinecap="round"
@@ -67,7 +67,7 @@ const MoodInLove = () => {
                     strokeWidth="2"
                     d="M8 11s.25-2 2.5-2 2.5 2 2.5 2"
                 ></path>
-                <g filter="url(#m)" opacity="0.26">
+                <g filter="url(#in-love-m)" opacity="0.26">
                     <path
                         stroke="#fff"
                         strokeLinecap="round"
@@ -83,7 +83,7 @@ const MoodInLove = () => {
                     strokeWidth="2"
                     d="M19 11s.5-2 2.5-2 2.5 2 2.5 2"
                 ></path>
-                <g filter="url(#n)" opacity="0.26">
+                <g filter="url(#in-love-n)" opacity="0.26">
                     <path
                         stroke="#fff"
                         strokeLinecap="round"
@@ -93,51 +93,51 @@ const MoodInLove = () => {
                     ></path>
                 </g>
                 <path
-                    fill="url(#o)"
+                    fill="url(#in-love-o)"
                     d="M4 28c-1.118-1.118-1.5-3-.5-4s3-.5 3-.5.5-1.25 2-1c2 .25 2.25 2.5 1.75 4-.382 1.146-1.307 2.369-1.98 3.156-.431.506-1.167.58-1.717.204C5.628 29.23 4.316 28.316 4 28z"
                 ></path>
-                <g filter="url(#p)">
+                <g filter="url(#in-love-p)">
                     <path
                         fill="#E4694E"
                         d="M21 18.1c1.5-.5 3.167.9 3.5 1.4.167-.5.9-1.5 2.5-1.5 2 0 .557 2.107 0 3.5-.625 1.562-1.64 3.48-2.314 4.698a.97.97 0 01-1.592.156C22.1 25.187 20.572 23.358 20 22.5c-1-1.5-.897-3.767 1-4.4z"
                     ></path>
                 </g>
                 <path
-                    fill="url(#q)"
+                    fill="url(#in-love-q)"
                     d="M23 17.1c1.5-.5 3.167.9 3.5 1.4.167-.5.9-1.5 2.5-1.5 2 0 2.557 2.107 2 3.5-.73 1.826-3.06 4.136-4.264 5.25a.956.956 0 01-1.381-.09c-.963-1.126-2.73-3.222-3.355-4.16-1-1.5-.897-3.767 1-4.4z"
                 ></path>
                 <path
-                    stroke="url(#r)"
+                    stroke="url(#in-love-r)"
                     strokeLinecap="round"
                     strokeWidth="2"
                     d="M12 16c0 1.333.8 4 4 4s4-2.667 4-4"
                 ></path>
-                <g filter="url(#s)" opacity="0.8">
+                <g filter="url(#in-love-s)" opacity="0.8">
                     <path stroke="#fff" d="M9.5 2.5L7 5"></path>
                 </g>
-                <g filter="url(#t)" opacity="0.8">
+                <g filter="url(#in-love-t)" opacity="0.8">
                     <path stroke="#fff" d="M25 18.5l2.5 3 2-2.5"></path>
                 </g>
-                <g filter="url(#u)">
+                <g filter="url(#in-love-u)">
                     <circle cx="8.5" cy="24.5" r="1" fill="#fff"></circle>
                 </g>
-                <g filter="url(#v)" opacity="0.6">
+                <g filter="url(#in-love-v)" opacity="0.6">
                     <path
                         stroke="#F944A5"
                         strokeWidth="2"
                         d="M7.5 29.5L9 26"
                     ></path>
                 </g>
-                <g filter="url(#w)">
+                <g filter="url(#in-love-w)">
                     <path stroke="#F944A5" d="M26.5 24.5L23 20"></path>
                 </g>
-                <g filter="url(#x)">
+                <g filter="url(#in-love-x)">
                     <path stroke="#F944A5" d="M5.5 8.5L8 6"></path>
                 </g>
             </g>
             <defs>
                 <filter
-                    id="k"
+                    id="in-love-k"
                     width="10"
                     height="7"
                     x="5"
@@ -160,7 +160,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="l"
+                    id="in-love-l"
                     width="10.001"
                     height="7"
                     x="16"
@@ -183,7 +183,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="m"
+                    id="in-love-m"
                     width="8.75"
                     height="5.75"
                     x="6.375"
@@ -206,7 +206,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="n"
+                    id="in-love-n"
                     width="8.75"
                     height="5.75"
                     x="17.375"
@@ -229,7 +229,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="p"
+                    id="in-love-p"
                     width="12.653"
                     height="12.707"
                     x="17.373"
@@ -252,7 +252,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="s"
+                    id="in-love-s"
                     width="7.207"
                     height="7.207"
                     x="4.646"
@@ -275,7 +275,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="t"
+                    id="in-love-t"
                     width="9.274"
                     height="8.111"
                     x="22.616"
@@ -298,7 +298,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="u"
+                    id="in-love-u"
                     width="6"
                     height="6"
                     x="5.5"
@@ -321,7 +321,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="v"
+                    id="in-love-v"
                     width="5.338"
                     height="6.288"
                     x="5.581"
@@ -344,7 +344,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="w"
+                    id="in-love-w"
                     width="8.29"
                     height="9.114"
                     x="20.605"
@@ -367,7 +367,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="x"
+                    id="in-love-x"
                     width="7.207"
                     height="7.207"
                     x="3.146"
@@ -390,7 +390,7 @@ const MoodInLove = () => {
                     ></feGaussianBlur>
                 </filter>
                 <radialGradient
-                    id="b"
+                    id="in-love-b"
                     cx="0"
                     cy="0"
                     r="1"
@@ -402,7 +402,7 @@ const MoodInLove = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="c"
+                    id="in-love-c"
                     cx="0"
                     cy="0"
                     r="1"
@@ -414,7 +414,7 @@ const MoodInLove = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="d"
+                    id="in-love-d"
                     cx="0"
                     cy="0"
                     r="1"
@@ -429,7 +429,7 @@ const MoodInLove = () => {
                     <stop offset="0.973" stopColor="#FF7DCE"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="e"
+                    id="in-love-e"
                     cx="0"
                     cy="0"
                     r="1"
@@ -440,7 +440,7 @@ const MoodInLove = () => {
                     <stop offset="1"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="f"
+                    id="in-love-f"
                     cx="0"
                     cy="0"
                     r="1"
@@ -455,7 +455,7 @@ const MoodInLove = () => {
                     <stop offset="1" stopColor="#715B32"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="g"
+                    id="in-love-g"
                     cx="0"
                     cy="0"
                     r="1"
@@ -466,7 +466,7 @@ const MoodInLove = () => {
                     <stop offset="1" stopColor="#FFB847" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="h"
+                    id="in-love-h"
                     cx="0"
                     cy="0"
                     r="1"
@@ -481,7 +481,7 @@ const MoodInLove = () => {
                     ></stop>
                 </radialGradient>
                 <radialGradient
-                    id="i"
+                    id="in-love-i"
                     cx="0"
                     cy="0"
                     r="1"
@@ -492,7 +492,7 @@ const MoodInLove = () => {
                     <stop offset="1" stopOpacity="0.4"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="r"
+                    id="in-love-r"
                     cx="0"
                     cy="0"
                     r="1"
@@ -505,7 +505,7 @@ const MoodInLove = () => {
                     <stop offset="1" stopColor="#522C57"></stop>
                 </radialGradient>
                 <linearGradient
-                    id="j"
+                    id="in-love-j"
                     x1="4.5"
                     x2="8.136"
                     y1="3.5"
@@ -516,7 +516,7 @@ const MoodInLove = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="o"
+                    id="in-love-o"
                     x1="6"
                     x2="9.342"
                     y1="24.5"
@@ -527,7 +527,7 @@ const MoodInLove = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="q"
+                    id="in-love-q"
                     x1="29.099"
                     x2="25.876"
                     y1="18.037"
@@ -537,7 +537,7 @@ const MoodInLove = () => {
                     <stop stopColor="#CA0B4A"></stop>
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </linearGradient>
-                <clipPath id="a">
+                <clipPath id="in-love-a">
                     <path fill="#fff" d="M0 0h32v32H0z"></path>
                 </clipPath>
             </defs>

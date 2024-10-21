@@ -7,39 +7,39 @@ const MoodExcited = () => {
             viewBox="0 0 32 32"
         >
             <path
-                fill="url(#a)"
+                fill="url(#excited-a)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#b)"
+                fill="url(#excited-b)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#c)"
+                fill="url(#excited-c)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#d)"
+                fill="url(#excited-d)"
                 fillOpacity="0.6"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#e)"
+                fill="url(#excited-e)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#f)"
+                fill="url(#excited-f)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#g)"
+                fill="url(#excited-g)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
             <path
-                fill="url(#h)"
+                fill="url(#excited-h)"
                 d="M15.999 29.998c9.334 0 13.999-6.268 13.999-14 0-7.73-4.665-13.998-14-13.998C6.665 2 2 8.268 2 15.999c0 7.731 4.664 13.999 13.999 13.999z"
             ></path>
-            <g filter="url(#i)">
+            <g filter="url(#excited-i)">
                 <path
                     fill="#B3671F"
                     fillRule="evenodd"
@@ -47,7 +47,7 @@ const MoodExcited = () => {
                     clipRule="evenodd"
                 ></path>
             </g>
-            <g filter="url(#j)">
+            <g filter="url(#excited-j)">
                 <path
                     fill="#9F5915"
                     fillRule="evenodd"
@@ -62,19 +62,22 @@ const MoodExcited = () => {
                 clipRule="evenodd"
             ></path>
             <path
-                fill="url(#k)"
+                fill="url(#excited-k)"
                 fillRule="evenodd"
                 d="M14 10.5c0 1.434-.74 2.667-1.798 3.208A7.869 7.869 0 0010.5 13.5c-.313 0-.63.025-.944.069C8.63 12.974 8 11.822 8 10.5 8 8.567 9.343 7 11 7s3 1.567 3 3.5zm10 0c0 1.322-.629 2.474-1.556 3.069a6.917 6.917 0 00-.944-.069c-.569 0-1.154.084-1.702.208C18.739 13.167 18 11.934 18 10.5 18 8.567 19.343 7 21 7s3 1.567 3 3.5z"
                 clipRule="evenodd"
             ></path>
-            <path fill="url(#l)" d="M16 25c-9 0-9-9-9-9h18s0 9-9 9z"></path>
             <path
-                fill="url(#m)"
+                fill="url(#excited-l)"
+                d="M16 25c-9 0-9-9-9-9h18s0 9-9 9z"
+            ></path>
+            <path
+                fill="url(#excited-m)"
                 d="M8 16.5V16h16v.5a1 1 0 01-1 1H9a1 1 0 01-1-1z"
             ></path>
             <defs>
                 <radialGradient
-                    id="a"
+                    id="excited-a"
                     cx="0"
                     cy="0"
                     r="1"
@@ -86,7 +89,7 @@ const MoodExcited = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="b"
+                    id="excited-b"
                     cx="0"
                     cy="0"
                     r="1"
@@ -98,7 +101,7 @@ const MoodExcited = () => {
                     <stop offset="1" stopColor="#F70A8D"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="c"
+                    id="excited-c"
                     cx="0"
                     cy="0"
                     r="1"
@@ -113,7 +116,7 @@ const MoodExcited = () => {
                     <stop offset="0.973" stopColor="#FF7DCE"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="d"
+                    id="excited-d"
                     cx="0"
                     cy="0"
                     r="1"
@@ -124,7 +127,7 @@ const MoodExcited = () => {
                     <stop offset="1"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="e"
+                    id="excited-e"
                     cx="0"
                     cy="0"
                     r="1"
@@ -139,7 +142,7 @@ const MoodExcited = () => {
                     <stop offset="1" stopColor="#715B32"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="f"
+                    id="excited-f"
                     cx="0"
                     cy="0"
                     r="1"
@@ -150,7 +153,7 @@ const MoodExcited = () => {
                     <stop offset="1" stopColor="#FFB847" stopOpacity="0"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="g"
+                    id="excited-g"
                     cx="0"
                     cy="0"
                     r="1"
@@ -165,7 +168,7 @@ const MoodExcited = () => {
                     ></stop>
                 </radialGradient>
                 <radialGradient
-                    id="h"
+                    id="excited-h"
                     cx="0"
                     cy="0"
                     r="1"
@@ -176,7 +179,7 @@ const MoodExcited = () => {
                     <stop offset="1" stopOpacity="0.4"></stop>
                 </radialGradient>
                 <radialGradient
-                    id="l"
+                    id="excited-l"
                     cx="0"
                     cy="0"
                     r="1"
@@ -187,7 +190,7 @@ const MoodExcited = () => {
                     <stop offset="1" stopColor="#89029C"></stop>
                 </radialGradient>
                 <linearGradient
-                    id="k"
+                    id="excited-k"
                     x1="22.154"
                     x2="20.724"
                     y1="7"
@@ -198,7 +201,7 @@ const MoodExcited = () => {
                     <stop offset="1" stopColor="#3D2432"></stop>
                 </linearGradient>
                 <linearGradient
-                    id="m"
+                    id="excited-m"
                     x1="16"
                     x2="16"
                     y1="16"
@@ -209,7 +212,7 @@ const MoodExcited = () => {
                     <stop offset="1" stopColor="#fff"></stop>
                 </linearGradient>
                 <filter
-                    id="i"
+                    id="excited-i"
                     width="12"
                     height="11.127"
                     x="3.5"
@@ -232,7 +235,7 @@ const MoodExcited = () => {
                     ></feGaussianBlur>
                 </filter>
                 <filter
-                    id="j"
+                    id="excited-j"
                     width="12"
                     height="11.127"
                     x="15"
