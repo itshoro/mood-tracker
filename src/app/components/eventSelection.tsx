@@ -28,7 +28,7 @@ const EventSelection = ({ event }: EventSelectionProps) => {
             />
             <label
                 htmlFor={`event-${event}`}
-                className="inline-block select-none rounded-full border border-gray-200 px-5 py-3 font-semibold text-slate-800 transition-all duration-[50ms] peer-checked:border-transparent peer-checked:bg-stone-50 peer-checked:outline peer-checked:outline-2 peer-checked:outline-black"
+                className="inline-block select-none rounded-full border border-gray-200 px-5 py-3 font-semibold text-slate-800 transition-all duration-[50ms] peer-checked:bg-amber-100 peer-checked:ring-2 peer-checked:ring-amber-300 peer-checked:ring-offset-4"
             >
                 {eventMap[event].label}
             </label>

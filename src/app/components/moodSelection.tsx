@@ -36,7 +36,7 @@ const MoodSelection = ({ mood }: MoodSelectionProps) => {
             />
             <label
                 htmlFor={`mood-${mood}`}
-                className="flex items-center rounded-lg bg-gray-50 p-2 peer-checked:bg-amber-100 peer-checked:ring-2 peer-checked:ring-amber-300 peer-checked:ring-offset-4"
+                className="flex items-center rounded-lg bg-gray-50 p-2 transition-all duration-[50ms] peer-checked:bg-amber-100 peer-checked:ring-2 peer-checked:ring-amber-300 peer-checked:ring-offset-4"
             >
                 <div className="flex-shrink-0">{moodMap[mood].icon}</div>
 
