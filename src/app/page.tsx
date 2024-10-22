@@ -1,13 +1,17 @@
 "use client";
 
-import { availableMoods, MoodSelection } from "./components/moodSelection";
+import {
+    availableMoods,
+    type Mood,
+    MoodInput,
+} from "./components/mood-selection";
 import { MoodThinking } from "./components/icons/mood-thinking";
-import { useState } from "react";
-import { EventSelection } from "./components/eventSelection";
-import { availableEvents } from "./components/eventSelection";
+import React, { useState } from "react";
+import { EventSelection } from "./components/event-selection";
+import { availableEvents } from "./components/event-selection";
+import { moodMap } from "./components/mood-selection";
 
 export default function Home() {
-    const [moodSelected, setMoodSelected] = useState(false);
     return (
         <main className="p-4">
             <div className="flex flex-col">
@@ -28,22 +32,8 @@ export default function Home() {
                         <h2 className="mb-6 text-2xl font-medium text-slate-800">
                             How are you feeling today?
                         </h2>
-
                         <div className="rounded-lg p-4 font-semibold">
-                            {!moodSelected ? (
-                                <div className="flex flex-col items-center text-slate-800">
-                                    <MoodThinking></MoodThinking>
-                                    <p className="mt-4">
-                                        You haven't selected a mood yet.
-                                    </p>
-                                </div>
-                            ) : null}
-
-                            <div className="mt-12 grid grid-cols-2 gap-6">
-                                {availableMoods.map((mood) => (
-                                    <MoodSelection key={mood} mood={mood} />
-                                ))}
-                            </div>
+                            <MoodSelector />
                         </div>
                     </section>
 
@@ -51,7 +41,7 @@ export default function Home() {
                         <h2 className="mb-6 mt-12 text-2xl font-medium text-slate-800">
                             Today's events
                         </h2>
-                        <div className="flex flex-wrap gap-3">
+                        <div className="flex flex-wrap gap-4">
                             {availableEvents.map((event) => (
                                 <EventSelection
                                     key={event}
@@ -81,7 +71,7 @@ export default function Home() {
                             className="text-skate-800 bg w-full rounded-lg bg-amber-300 py-4 text-lg font-semibold text-slate-900 focus:ring-2 focus:ring-amber-300 focus:ring-offset-4"
                             type="submit"
                         >
-                            Save
+                            Save your feelings!
                         </button>
                     </div>
                 </form>
@@ -89,3 +79,47 @@ export default function Home() {
         </main>
     );
 }
+
+const MoodSelector = () => {
+    const [selectedMood, setSelectedMood] = useState<Mood>();
+
+    return (
+        <>
+            <MoodPreview mood={selectedMood} />
+            <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                {availableMoods.map((mood) => (
+                    <MoodInput
+                        key={mood}
+                        mood={mood}
+                        moodChecked={selectedMood}
+                        onChange={(event) => {
+                            setSelectedMood(event.target.value as Mood);
+                        }}
+                    />
+                ))}
+            </div>
+        </>
+    );
+};
+
+type MoodPreviewProps = {
+    mood?: Mood;
+};
+
+const MoodPreview = ({ mood }: MoodPreviewProps) => {
+    if (mood === undefined) {
+        return (
+            <div className="flex flex-col items-center text-slate-800">
+                <MoodThinking size="size-24"></MoodThinking>
+                <p className="mt-4">You haven't selected a mood yet.</p>
+            </div>
+        );
+    }
+
+    return (
+        <div className="flex flex-col items-center text-slate-800">
+            {React.cloneElement(moodMap[mood].icon, { size: "size-24" })}
+            <p className="mt-4">{moodMap[mood].label}</p>
+        </div>
+    );
+};
