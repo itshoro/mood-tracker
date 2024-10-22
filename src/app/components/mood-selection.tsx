@@ -1,3 +1,4 @@
+import { ChangeEvent } from "react";
 import { MoodAngry } from "./icons/mood-angry";
 import { MoodDepressed } from "./icons/mood-depressed";
 import { MoodExcited } from "./icons/mood-excited";
@@ -9,6 +10,8 @@ import { MoodSad } from "./icons/mood-sad";
 import { MoodThinking } from "./icons/mood-thinking";
 import { MoodWorried } from "./icons/mood-worried";
 
+type Mood = keyof typeof moodMap;
+
 const moodMap = {
     sad: { icon: <MoodSad />, label: "Sad" },
     happy: { icon: <MoodHappy />, label: "Happy" },
@@ -19,17 +22,18 @@ const moodMap = {
     depressed: { icon: <MoodDepressed />, label: "Depressed" },
     proud: { icon: <MoodProud />, label: "Proud" },
     worried: { icon: <MoodWorried />, label: "Worried" },
+    thinking: { icon: <MoodThinking />, label: "Thinking" },
 };
 
-const availableMoods = Object.keys(
-    moodMap,
-) as readonly (keyof typeof moodMap)[];
+const availableMoods = Object.keys(moodMap) as readonly Mood[];
 
-type MoodSelectionProps = {
-    mood: keyof typeof moodMap;
+type MoodInput = {
+    mood: Mood;
+    moodChecked: Mood | undefined;
+    onChange: React.ChangeEventHandler<HTMLInputElement>;
 };
 
-const MoodSelection = ({ mood }: MoodSelectionProps) => {
+const MoodInput = ({ mood, moodChecked, onChange }: MoodInput) => {
     return (
         <div>
             <input
@@ -38,6 +42,8 @@ const MoodSelection = ({ mood }: MoodSelectionProps) => {
                 id={`mood-${mood}`}
                 value={mood}
                 name="mood"
+                checked={moodChecked === mood}
+                onChange={onChange}
             />
             <label
                 htmlFor={`mood-${mood}`}
@@ -53,4 +59,4 @@ const MoodSelection = ({ mood }: MoodSelectionProps) => {
     );
 };
 
-export { MoodSelection, availableMoods };
+export { MoodInput, availableMoods, moodMap, type Mood };
