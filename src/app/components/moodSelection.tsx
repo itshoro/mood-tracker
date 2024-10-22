@@ -4,7 +4,10 @@ import { MoodExcited } from "./icons/mood-excited";
 import { MoodHappy } from "./icons/mood-happy";
 import { MoodInLove } from "./icons/mood-in-love";
 import { MoodNeutral } from "./icons/mood-neutral";
+import { MoodProud } from "./icons/mood-proud";
 import { MoodSad } from "./icons/mood-sad";
+import { MoodThinking } from "./icons/mood-thinking";
+import { MoodWorried } from "./icons/mood-worried";
 
 const moodMap = {
     sad: { icon: <MoodSad />, label: "Sad" },
@@ -14,6 +17,8 @@ const moodMap = {
     "in-love": { icon: <MoodInLove />, label: "In Love" },
     neutral: { icon: <MoodNeutral />, label: "Neutral" },
     depressed: { icon: <MoodDepressed />, label: "Depressed" },
+    proud: { icon: <MoodProud />, label: "Proud" },
+    worried: { icon: <MoodWorried />, label: "Worried" },
 };
 
 const availableMoods = Object.keys(
