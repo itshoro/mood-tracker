@@ -1,7 +1,11 @@
-const MoodHappy = () => {
+type MoodProps = {
+    size?: `size-${number}`;
+};
+
+const MoodHappy = ({ size = "size-8" }: MoodProps) => {
     return (
         <svg
-            className="size-8"
+            className={size}
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 32 32"
