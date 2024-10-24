@@ -1,11 +1,11 @@
 const eventMap = {
-    bath: { label: "took a bath" },
-    game: { label: "played games" },
-    friend: { label: "met a friend" },
-    housework: { label: "did housework" },
+    "took-bath": { label: "took a bath" },
+    "played-games": { label: "played games" },
+    "met-friend": { label: "met a friend" },
+    "did-housework": { label: "did housework" },
     illness: { label: "not feeling well" },
-    disput: { label: "argued with someone" },
-    sad: { label: "something sad happened" },
+    "argued-with-someone": { label: "argued with someone" },
+    "sad-occurrence": { label: "something sad happened" },
 };
 
 const availableEvents = Object.keys(
