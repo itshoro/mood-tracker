@@ -4,7 +4,7 @@ const eventMap = {
     friend: { label: "met a friend" },
     housework: { label: "did housework" },
     illness: { label: "not feeling well" },
-    disput: { label: "argued with someone" },
+    dispute: { label: "argued with someone" },
     sad: { label: "something sad happened" },
 };
 
