@@ -1,4 +1,3 @@
-import { ChangeEvent } from "react";
 import { MoodAngry } from "./icons/mood-angry";
 import { MoodDepressed } from "./icons/mood-depressed";
 import { MoodExcited } from "./icons/mood-excited";
@@ -59,4 +58,4 @@ const MoodInput = ({ mood, moodChecked, onChange }: MoodInput) => {
     );
 };
 
-export { MoodInput, availableMoods, moodMap, type Mood };
+export { availableMoods, MoodInput, moodMap, type Mood };
