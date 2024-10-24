@@ -110,7 +110,7 @@ const MoodPreview = ({ mood }: MoodPreviewProps) => {
     if (mood === undefined) {
         return (
             <div className="flex flex-col items-center text-slate-800">
-                <MoodThinking size="size-24"></MoodThinking>
+                <MoodThinking size="size-24" />
                 <p className="mt-4">You haven't selected a mood yet.</p>
             </div>
         );
