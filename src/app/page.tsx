@@ -86,7 +86,7 @@ const MoodSelector = () => {
     return (
         <>
             <MoodPreview mood={selectedMood} />
-            <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
+            <div className="xs:grid-cols-2 mt-12 grid grid-cols-1 gap-6">
                 {availableMoods.map((mood) => (
                     <MoodInput
                         key={mood}
