@@ -68,7 +68,7 @@ export default function Home() {
 
                     <div className="sticky bottom-2 mt-8 flex justify-center">
                         <button
-                            className="text-skate-800 bg w-full rounded-lg bg-amber-300 py-4 text-lg font-semibold text-slate-900 focus:ring-2 focus:ring-amber-300 focus:ring-offset-4"
+                            className="bg w-full rounded-lg bg-amber-300 py-4 text-lg font-semibold text-slate-900 focus:ring-2 focus:ring-amber-300 focus:ring-offset-4"
                             type="submit"
                         >
                             Save your feelings!
