@@ -3,8 +3,10 @@ import type { Config } from "tailwindcss";
 const config: Config = {
     content: ["./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
     theme: {
-        screens: {
-            sm: "350px",
+        extend: {
+            screens: {
+                xs: "350px",
+            },
         },
     },
     plugins: [],
