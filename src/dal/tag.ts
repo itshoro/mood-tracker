@@ -14,6 +14,17 @@ export async function getOne(id: typeof schema.tags.$inferSelect.id) {
     return tag;
 }
 
+export async function getByCategory(
+    categoryId: typeof schema.tagCategories.id,
+) {
+    const result = await db
+        .select()
+        .from(schema.tags)
+        .where(eq(schema.tags.categoryId, categoryId));
+
+    return result;
+}
+
 export async function getAll() {
     const result = await db.select().from(schema.tags);
 
