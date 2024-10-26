@@ -1,0 +1,184 @@
+{
+  "id": "0227297a-7adb-4dd4-a7fa-9e68aa1c9d70",
+  "prevId": "4a025676-e3d1-4f2f-96a0-09e469d3d364",
+  "version": "6",
+  "dialect": "sqlite",
+  "tables": {
+    "mood_ratings": {
+      "name": "mood_ratings",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "targetDate": {
+          "name": "targetDate",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "rating": {
+          "name": "rating",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "note": {
+          "name": "note",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false,
+          "default": "CURRENT_TIMESTAMP"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "mood_rating_tags": {
+      "name": "mood_rating_tags",
+      "columns": {
+        "ratingId": {
+          "name": "ratingId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "tagId": {
+          "name": "tagId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "mood_rating_tags_ratingId_mood_ratings_id_fk": {
+          "name": "mood_rating_tags_ratingId_mood_ratings_id_fk",
+          "tableFrom": "mood_rating_tags",
+          "columnsFrom": [
+            "ratingId"
+          ],
+          "tableTo": "mood_ratings",
+          "columnsTo": [
+            "id"
+          ],
+          "onUpdate": "no action",
+          "onDelete": "no action"
+        },
+        "mood_rating_tags_tagId_mood_tags_id_fk": {
+          "name": "mood_rating_tags_tagId_mood_tags_id_fk",
+          "tableFrom": "mood_rating_tags",
+          "columnsFrom": [
+            "tagId"
+          ],
+          "tableTo": "mood_tags",
+          "columnsTo": [
+            "id"
+          ],
+          "onUpdate": "no action",
+          "onDelete": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "tag_categories": {
+      "name": "tag_categories",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "mood_tags": {
+      "name": "mood_tags",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "categoryId": {
+          "name": "categoryId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "mood_tags_categoryId_tag_categories_id_fk": {
+          "name": "mood_tags_categoryId_tag_categories_id_fk",
+          "tableFrom": "mood_tags",
+          "columnsFrom": [
+            "categoryId"
+          ],
+          "tableTo": "tag_categories",
+          "columnsTo": [
+            "id"
+          ],
+          "onUpdate": "no action",
+          "onDelete": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    }
+  },
+  "views": {},
+  "enums": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  },
+  "internal": {
+    "indexes": {}
+  }
+}
