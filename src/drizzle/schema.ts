@@ -22,12 +22,20 @@ export const moodRatings = sqliteTable("mood_ratings", {
     createdAt: int({ mode: "timestamp" }).default(sql`CURRENT_TIMESTAMP`),
 });
 
-export const moodTags = sqliteTable("mood_tags", {
+export const tagCategories = sqliteTable("tag_categories", {
     id: int().primaryKey(),
     name: text().notNull(),
 });
 
-export const moodRatingTags = sqliteTable("mood_rating_tags", {
+export const tags = sqliteTable("mood_tags", {
+    id: int().primaryKey(),
+    categoryId: int()
+        .notNull()
+        .references(() => tagCategories.id),
+    name: text().notNull(),
+});
+
+export const ratingTags = sqliteTable("mood_rating_tags", {
     ratingId: int().references(() => moodRatings.id),
-    tagId: int().references(() => moodTags.id),
+    tagId: int().references(() => tags.id),
 });
