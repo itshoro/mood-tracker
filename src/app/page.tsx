@@ -1,15 +1,5 @@
-"use client";
-
-import {
-    availableMoods,
-    type Mood,
-    MoodInput,
-} from "./components/mood-selection";
-import { MoodThinking } from "./components/icons/mood-thinking";
-import React, { useState } from "react";
 import { EventSelection } from "./components/event-selection";
-import { availableEvents } from "./components/event-selection";
-import { moodMap } from "./components/mood-selection";
+import { MoodSelector } from "./mood-input";
 
 export default function Home() {
     return (
@@ -41,13 +31,8 @@ export default function Home() {
                         <h2 className="mb-6 mt-12 text-2xl font-medium text-slate-800">
                             Today's events
                         </h2>
-                        <div className="flex flex-wrap gap-4">
-                            {availableEvents.map((event) => (
-                                <EventSelection
-                                    key={event}
-                                    event={event}
-                                ></EventSelection>
-                            ))}
+                        <div className="flex flex-col gap-4">
+                            <EventSelection />
                         </div>
                     </section>
 
@@ -79,47 +64,3 @@ export default function Home() {
         </main>
     );
 }
-
-const MoodSelector = () => {
-    const [selectedMood, setSelectedMood] = useState<Mood>();
-
-    return (
-        <>
-            <MoodPreview mood={selectedMood} />
-            <div className="xs:grid-cols-2 mt-12 grid grid-cols-1 gap-6">
-                {availableMoods.map((mood) => (
-                    <MoodInput
-                        key={mood}
-                        mood={mood}
-                        moodChecked={selectedMood}
-                        onChange={(event) => {
-                            setSelectedMood(event.target.value as Mood);
-                        }}
-                    />
-                ))}
-            </div>
-        </>
-    );
-};
-
-type MoodPreviewProps = {
-    mood?: Mood;
-};
-
-const MoodPreview = ({ mood }: MoodPreviewProps) => {
-    if (mood === undefined) {
-        return (
-            <div className="flex flex-col items-center text-slate-800">
-                <MoodThinking size="size-24" />
-                <p className="mt-4">You haven't selected a mood yet.</p>
-            </div>
-        );
-    }
-
-    return (
-        <div className="flex flex-col items-center text-slate-800">
-            {React.cloneElement(moodMap[mood].icon, { size: "size-24" })}
-            <p className="mt-4">{moodMap[mood].label}</p>
-        </div>
-    );
-};

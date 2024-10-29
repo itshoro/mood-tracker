@@ -14,8 +14,18 @@ export async function getOne(id: typeof schema.tags.$inferSelect.id) {
     return tag;
 }
 
+export async function getByCategories(
+    categoryIds: (typeof schema.tagCategories.$inferSelect.id)[],
+) {
+    return Object.fromEntries(
+        await Promise.all(
+            categoryIds.map(async (id) => [id, await getByCategory(id)]),
+        ),
+    );
+}
+
 export async function getByCategory(
-    categoryId: typeof schema.tagCategories.id,
+    categoryId: typeof schema.tagCategories.$inferSelect.id,
 ) {
     const result = await db
         .select()
