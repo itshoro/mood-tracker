@@ -1,39 +1,48 @@
-const eventMap = {
-    "took-bath": { label: "took a bath" },
-    "played-games": { label: "played games" },
-    "met-friend": { label: "met a friend" },
-    "did-housework": { label: "did housework" },
-    illness: { label: "not feeling well" },
-    "argued-with-someone": { label: "argued with someone" },
-    "sad-occurrence": { label: "something sad happened" },
-};
+import { getByCategories } from "@/dal/tag";
+import { getAll as getAllCategories } from "@/dal/category";
 
-const availableEvents = Object.keys(
-    eventMap,
-) as readonly (keyof typeof eventMap)[];
-
-type EventSelectionProps = {
-    event: keyof typeof eventMap;
-};
-
-const EventSelection = ({ event }: EventSelectionProps) => {
+const EventSelection = async () => {
+    const categories = await getAllCategories();
+    const events = await getByCategories(
+        categories.map((category) => category.id),
+    );
     return (
         <div>
-            <input
-                type="checkbox"
-                className="peer hidden"
-                id={`event-${event}`}
-                value={event}
-                name="event"
-            />
-            <label
-                htmlFor={`event-${event}`}
-                className="inline-block select-none rounded-full border border-gray-200 px-5 py-3 font-semibold text-slate-800 transition-all duration-[50ms] peer-checked:bg-amber-100 peer-checked:ring-2 peer-checked:ring-amber-300 peer-checked:ring-offset-4"
-            >
-                {eventMap[event].label}
-            </label>
+            {categories.map((category) => {
+                return (
+                    <details
+                        className="mb-4 rounded-lg border border-gray-200 p-4"
+                        key={category.id}
+                    >
+                        <summary className="font-semibold text-slate-800">
+                            {category.name}
+                        </summary>
+                        {events[category.id].map((event) => {
+                            return (
+                                <div key={event.id} className="mt-5">
+                                    <input
+                                        type="checkbox"
+                                        className="peer hidden"
+                                        id={`event-${event.name}`}
+                                        value={event.name}
+                                        name="mood"
+                                    />
+                                    <label
+                                        htmlFor={`event-${event.name}`}
+                                        className="flex items-center rounded-lg bg-gray-50 p-2 transition-all duration-[50ms] peer-checked:bg-amber-100 peer-checked:ring-2 peer-checked:ring-amber-300 peer-checked:ring-offset-4"
+                                    >
+                                        <span className="ml-2 font-semibold text-slate-800">
+                                            {event.name}
+                                        </span>
+                                    </label>
+                                </div>
+                            );
+                        })}
+                    </details>
+                );
+            })}
         </div>
     );
 };
 
-export { EventSelection, availableEvents };
+export { EventSelection };
