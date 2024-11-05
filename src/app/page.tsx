@@ -1,10 +1,13 @@
+import { DatePicker } from "./components/date-picker";
 import { EventSelection } from "./components/event-selection";
+import { FooterNav } from "./components/footer-nav";
+import { SaveButton } from "./components/save-button";
 import { MoodSelector } from "./mood-input";
 
 export default function Home() {
     return (
-        <main className="p-4">
-            <div className="flex flex-col">
+        <main>
+            <div className="flex flex-col p-4">
                 <div>
                     <h1 className="text-2xl font-bold text-slate-800">
                         Welcome,
@@ -14,12 +17,9 @@ export default function Home() {
                     </h1>
                 </div>
 
-                <p className="mt-8 text-sm font-semibold text-slate-600">
-                    Saturday, October 19
-                </p>
                 <form>
-                    <section>
-                        <h2 className="mb-6 text-2xl font-medium text-slate-800">
+                    <section className="mt-16">
+                        <h2 className="text-2xl font-medium text-slate-800">
                             How are you feeling today?
                         </h2>
                         <div className="rounded-lg p-4 font-semibold">
@@ -50,16 +50,12 @@ export default function Home() {
                             ></textarea>
                         </div>
                     </section>
-
-                    <div className="sticky bottom-2 mt-8 flex justify-center">
-                        <button
-                            className="bg w-full rounded-lg bg-amber-300 py-4 text-lg font-semibold text-slate-900 focus:ring-2 focus:ring-amber-300 focus:ring-offset-4"
-                            type="submit"
-                        >
-                            Save your feelings!
-                        </button>
-                    </div>
+                    <DatePicker />
                 </form>
+            </div>
+            <div className="sticky bottom-0">
+                <SaveButton />
+                <FooterNav />
             </div>
         </main>
     );
